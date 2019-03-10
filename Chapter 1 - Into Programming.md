@@ -38,7 +38,7 @@ await | Pause and resume an async function and wait for the promise's resolution
 () | Grouping operator 
 
 ##### Left Hand Side Expressions
-*Left values are the destination of an assignment
+* Left values are the destination of an assignment
 
 Symbol | Definition
 ---| ---
@@ -49,7 +49,8 @@ super | The ```super``` keyword calls the parent constructor
 ```...obj``` | Spread syntax allows an expression to be expanded in places where multiple arguments (for function calls) or multiple elements (for array literals are expected)
 
 ##### Increment and Decrement
-Postfix/prefix increment and postfix/prefix decrement operators
+* Postfix/prefix increment and postfix/prefix decrement operators
+
 Symbol | Definition
 --- | ---
 ```A++```| Postfix increment operator
@@ -58,7 +59,7 @@ Symbol | Definition
 ```--A```| Prefix decrement operator
 
 ##### Unary operators
-*A unary operation is operation with only one operand
+* A unary operation is operation with only one operand
 
 Symbol | Definition
 ---| ---
@@ -74,12 +75,12 @@ Symbol | Definition
 
 Symbol | Definition
 ---| ---
-+ | Addition operator
-- | Subtraction operator
-/ | Division operator
-* | Multiplication operator
-% | Remainder operator
-** | Exponentiation operator
+```+```| Addition operator
+```-```| Subtraction operator
+```/```| Division operator
+```*```| Multiplication operator
+```%```| Remainder operator
+```**```| Exponentiation operator
 
 ##### Relational Operators
 
@@ -87,13 +88,13 @@ Symbol | Definition
 --- | ---
 in | The in operator determines whether an object has a given property
 instanceof | The instanceof operator determines whether an object is an instance of another object
-< | Less than operator
-> | Greater than operator
-<= | Less than or equal operator
->= | Greater than or equal operator
+```<``` | Less than operator
+```>``` | Greater than operator
+```<=``` | Less than or equal operator
+```>=``` | Greater than or equal operator
 
 ##### Equality Operators
-*The result of evaluating an equality operato is always of boolean based on whether the comparison is true
+* The result of evaluating an equality operato is always of boolean based on whether the comparison is true
 
 Symbol | Definition
 --- | ---
@@ -106,24 +107,26 @@ Symbol | Definition
 
 Symbol | Definition
 --- | ---
-<< | Bitwise left shift operator
->> | Bitwise right shift operator
->>> | BItwise unsigned right shift operator
+```<<```| Bitwise left shift operator
+```>>```| Bitwise right shift operator
+```>>>```| BItwise unsigned right shift operator
 
 ##### Binary bitwise operators
 * Bitwise operators treat their operands as a set of 32 bits (zeros and ones) and return standard javascript numerical values
 
 Symbol | Definition
 --- | ---
-& | Bitwise AND
-&#124; | Bitwise OR
-^ | Bitwise XOR
+```&```| Bitwise AND
+```&#124;``` | Bitwise OR
+```^``` | Bitwise XOR
+
 ##### Binary logical operators
-Logical operators are typically used with boolean (logical) values, and when they are, they return a boolean value.
+* Logical operators are typically used with boolean (logical) values, and when they are, they return a boolean value.
 Symbol | Definition
 --- | ---
-&& | Logical AND
-&#124; &#124;| Logical OR
+```&&``` | Logical AND
+```&#124;``` ```&#124;```| Logical OR
+
 ##### Conditional (ternary) operators
 
 Symbol | Definition
@@ -135,25 +138,25 @@ Symbol | Definition
 
 Symbol | Definition
 --- | ---
-= | Assignment operator
-&#42;= | Multiplicaiton assignment
-/= | Division assignment
-%= | Remainder assignment
-+= | Addition assignment
--= | Subtraction assignment
-<<= | Left shift assignment
->>= | Right shift assignment
->>>= | Unsigned right shift assignment 
-&= | Bitwise AND assignment
-^= | BItwise XOR assignment
-&#124;= | BItwise OR assignment
+```=``` | Assignment operator
+```&#42;=``` | Multiplicaiton assignment
+```/=``` | Division assignment
+```%=``` | Remainder assignment
+```+=``` | Addition assignment
+```-=``` | Subtraction assignment
+```<<=``` | Left shift assignment
+```>>=``` | Right shift assignment
+```>>>=``` | Unsigned right shift assignment 
+```&=``` | Bitwise AND assignment
+```^=``` | BItwise XOR assignment
+```&#124;=``` | BItwise OR assignment
 ```[a, b] = [1, 2], {a, b} = {a:1, b:2}``` | Destructuring assignment allows you to assign the properties of an array or object to varibales using syntax that looks similar to array or object literals
 
 ##### Comma operator
 
 Symbol | Definition
 --- | ---
-, | The comma operator allows multiple expressions to be evaluated in a single statement and returns the result of the last expression
+```,``` | The comma operator allows multiple expressions to be evaluated in a single statement and returns the result of the last expression
 
 
 
